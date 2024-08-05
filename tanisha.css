@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+color:black;
+}
+
+header {
+    background:sky rgb(218, 218, 226)
+    #000000;
+    color: #fff;
+    padding: 1rem 0;
+
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    margin-left: 2rem;
+}
+
+header ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+#hero {
+    background: url('https://via.placeholder.com/1500x600') no-repeat center center/cover;
+    color: #fff;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero .hero-content {
+    background: rgba(122, 192, 10, 0.89);
+    padding: 2rem;
+    color: #000;
+    font-size: 4em;
+}
+
+#about, #partners, #contact {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+#about h2, #partners h2, #contact h2 {
+    margin-bottom: 1rem;
+}
+
+#about p, #partners p, #contact p {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}
+.aap {
+    color: #000000;
+}
+.gy img {
+display:block;
+margin-left: auto;
+margin-right: auto;}
+.ppp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 110px;
+}
